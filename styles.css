@@ -1,0 +1,130 @@
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: rgb(237, 219, 237);
+}
+
+.container{
+    width: 900px;
+    margin: 20px auto;
+}
+
+.header{
+    width: 100%;
+    background-color: purple;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+
+.main{
+    display: flex;
+    gap: 20px;
+}
+
+.left{
+    flex: 1;
+    border-right: 1px solid #ddd;
+    padding-right: 15px;
+    background-color: rgb(228, 187, 228);
+}
+
+.right{
+    flex: 2;
+    padding-left: 15px;
+}
+
+section{
+    margin-bottom: 25px;
+}
+
+h3{
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.job{
+    
+    margin-bottom: 15px;
+}
+
+.middle-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle-row h4{
+    margin: 0;
+}
+
+.middle-row span{
+    font-weight: bold;
+}
+.edu{
+    margin-bottom: 15px;
+}
+
+
+.top-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-row h4{
+    margin: 0;
+}
+
+.top-row span{
+    font-weight: bold;
+}
+
+.nav-box{
+    background: white;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.nav-box h3{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.nav-box ul{
+    list-style: none;
+    padding: 0;
+}
+
+.nav-box li{
+    margin-bottom: 8px;
+}
+
+.nav-box a{
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.nav-box a:hover{
+    color: purple;
+}
+
+
